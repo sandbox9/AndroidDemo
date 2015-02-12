@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="itwise.android.demo.ActionBarTabNav2">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/menu_main1"
+              android:title="sss"
+              android:icon="@drawable/btn_top_home" />
+
+        <item android:id="@+id/menu_main2"
+              android:title="sss"
+              android:icon="@drawable/btn_top_01" />
+
+        <item android:id="@+id/menu_main3"
+              android:title="sss"
+              android:icon="@drawable/btn_top_02" />
+
+        <item android:id="@+id/menu_main4"
+              android:title="sss"
+              android:icon="@drawable/btn_top_03" />
+
+        <item android:id="@+id/menu_main5"
+              android:title="sss"
+              android:icon="@drawable/btn_top_04" />
+
+        <item android:id="@+id/menu_main6"
+              android:title="sss"
+              android:icon="@drawable/btn_top_05" />
+    </group>
+</menu>

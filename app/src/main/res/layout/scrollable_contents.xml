@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" >
+
+  <!-- Header aligned to top -->
+
+    <!-- Footer aligned to bottom -->
+  <RelativeLayout
+    android:id="@+id/footer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:background="#FFF">
+
+
+      <RadioGroup android:id="@+id/toggleGroupBottomMenu"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="0dp"
+                  android:orientation="horizontal"
+                  android:measureWithLargestChild="true"
+                  android:layout_gravity="center_vertical"
+          >
+
+          <RadioButton
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/radioButton3"
+              android:button="@null"
+              android:checked="true"
+              android:text="홈"
+              android:drawableTop="@drawable/btn_bottom_home"
+              android:gravity="center"
+              android:layout_weight="1"
+              android:textColor="#555"
+              android:background="#fff"
+              android:textSize="12sp"/>
+
+          <RadioButton
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/radioButton4"
+              android:drawableTop="@drawable/btn_bottom_category"
+              android:checked="false"
+              android:button="@null"
+              android:text="카테고리"
+              android:gravity="center"
+              android:layout_weight="1"
+              android:textColor="#555"
+              android:background="#fff"
+              android:textSize="12sp"
+              />
+
+          <RadioButton
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:text="검색"
+              android:id="@+id/radioButton5"
+              android:drawableTop="@drawable/btn_bottom_search"
+              android:gravity="center"
+              android:checked="false"
+              android:button="@null"
+              android:textColor="#555"
+              android:background="#fff"
+              android:textSize="12sp"
+              android:layout_weight="1"/>
+
+          <RadioButton
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:text="카트"
+              android:id="@+id/radioButton6"
+              android:drawableTop="@drawable/btn_bottom_cart"
+              android:gravity="center"
+              android:checked="false"
+              android:layout_weight="1"
+              android:button="@null"
+              android:textColor="#555"
+              android:background="#fff"
+              android:textSize="12sp"/>
+
+          <RadioButton
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:text="배송"
+              android:id="@+id/radioButton7"
+              android:checked="false"
+              android:drawableTop="@drawable/btn_bottom_order"
+              android:gravity="center"
+              android:layout_weight="1"
+              android:button="@null"
+              android:textColor="#555"
+              android:background="#fff"
+              android:textSize="12sp"/>
+
+          <RadioButton
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:text="마이쇼핑"
+              android:id="@+id/radioButton8"
+              android:drawableTop="@drawable/btn_bottom_my"
+              android:gravity="center"
+              android:checked="false"
+              android:layout_weight="1"
+              android:button="@null"
+              android:textColor="#555"
+              android:background="#fff"
+              android:textSize="12sp"/>
+
+      </RadioGroup>
+  </RelativeLayout>
+  <!-- Scrollable Item below header and above footer -->
+
+    <ScrollView
+    android:id="@+id/scrollableContents"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_above="@id/footer"
+        >
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:gravity="center_horizontal"
+                      android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="22dp"
+                android:layout_marginTop="22dp"
+                android:text="Item 1"
+                android:textColor="#CCCCCC"
+                android:textSize="19sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="22dp"
+                android:layout_marginTop="22dp"
+                android:text="Item 2"
+                android:textColor="#CCCCCC"
+                android:textSize="19sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="22dp"
+                android:layout_marginTop="22dp"
+                android:text="Item 3"
+                android:textColor="#CCCCCC"
+                android:textSize="19sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="22dp"
+                android:layout_marginTop="22dp"
+                android:text="Item 4"
+                android:textColor="#CCCCCC"
+                android:textSize="19sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="22dp"
+                android:layout_marginTop="22dp"
+                android:text="Item 5"
+                android:textColor="#CCCCCC"
+                android:textSize="19sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="22dp"
+                android:layout_marginTop="22dp"
+                android:text="Item 6"
+                android:textColor="#CCCCCC"
+                android:textSize="19sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="22dp"
+                android:layout_marginTop="22dp"
+                android:text="Item 7"
+                android:textColor="#CCCCCC"
+                android:textSize="19sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="22dp"
+                android:layout_marginTop="22dp"
+                android:text="Item 8"
+                android:textColor="#CCCCCC"
+                android:textSize="19sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="22dp"
+                android:layout_marginTop="22dp"
+                android:text="Item 9"
+                android:textColor="#CCCCCC"
+                android:textSize="19sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="22dp"
+                android:layout_marginTop="22dp"
+                android:text="Item 10"
+                android:textColor="#CCCCCC"
+                android:textSize="19sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

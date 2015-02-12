@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="subMenu01">
+        <item>이벤트</item>
+        <item>TV쇼핑</item>
+        <item>베스트딜</item>
+        <item>총알배송</item>
+        <item>설준비</item>
+        <item>모바일티켓</item>
+        <item>맞춤딜</item>
+        <item>기획전</item>
+        <item>오늘오픈</item>
+        <item>마감임박</item>
+    </string-array>
+
+    <string-array name="subMenu02">
+        <item>의류딜</item>
+        <item>여성 브랜드</item>
+        <item>여성트랜드</item>
+        <item>유니섹스.남성</item>
+        <item>패션아울렛</item>
+        <item>언더웨어</item>
+    </string-array>
+
+    <string-array name="subMenu03">
+        <item>잡화/뷰티딜</item>
+        <item>가방/잡화</item>
+        <item>슈즈</item>
+        <item>시계/주얼리</item>
+        <item>수입명품</item>
+        <item>화장품/향수</item>
+        <item>명품화장품</item>
+        <item>헤어/바디/가기</item>
+    </string-array>
+
+    <string-array name="subMenu04">
+        <item>유아/식품딜</item>
+        <item>유아동 의류/잡화</item>
+        <item>출산/육아용품</item>
+        <item>유아동 완구</item>
+        <item>유아동 도서</item>
+        <item>외출/안전용품</item>
+        <item>유아동 스킨케어</item>
+        <item>신석식품</item>
+        <item>가공식품</item>
+        <item>건강/다이어트 식품</item>
+    </string-array>
+
+    <string-array name="subMenu05">
+        <item>리빙/가전딜</item>
+        <item>거실/침실가구</item>
+        <item>침구/커튼/카페트</item>
+        <item>학생/주방/수잡가구</item>
+        <item>홈데코</item>
+        <item>주방용품/식기</item>
+        <item>세제/제지/위생</item>
+    </string-array>
+
+    <string-array name="subMenu06">
+        <item>레저/e티켓딜</item>
+        <item>e티켓/여행/상품권</item>
+        <item>스포츠의류/잡화</item>
+        <item>캠핑/등산/낚시</item>
+        <item>헬스/요가/자전거</item>
+    </string-array>
+
+</resources>
